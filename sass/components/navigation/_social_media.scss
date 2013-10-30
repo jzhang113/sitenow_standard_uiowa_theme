@@ -1,0 +1,40 @@
+#sitenow-footer-social-links {
+  ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  li {
+    @include inline-block;
+    margin: 0 .5em;
+  }
+
+  a {
+    display: block;
+    @include font-size(1.2);
+  }
+
+  a:before {
+    margin-right: .3em;
+    @include font-size(2.5);
+    position: relative;
+    top: 4px;
+  }
+
+  a[href*="facebook.com"]:before {
+    @include icon($fa-var-facebook-square);
+  }
+
+  a[href*="twitter.com"]:before {
+    @include icon($fa-var-twitter);
+  }
+
+  a[href*="youtube.com"]:before {
+    @include icon($fa-var-youtube);
+  }
+
+  a[href*="flickr.com"]:before {
+    @include icon($fa-var-flickr);
+  }
+}

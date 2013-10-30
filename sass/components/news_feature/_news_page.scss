@@ -1,0 +1,7 @@
+.section-articles {
+  .pane-articles-panel-pane-article-recent {
+    .pane-title {
+      @include element-invisible;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $base-font-color;
+  font-family: $base-font-stack;
+  @include font-size(1.8);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $header-font-stack;
+  font-weight: $font-weight-extra-light;
+  margin: 0 0 .5em;
+  color: darken($base-font-color, 10%);
+}
+
+h2 {
+  @include font-size(2.8);
+}
+
+h3, h4, h5, h6 {
+  @include font-size(1.9);
+  font-weight: $font-weight-semi-bold;
+}
+
+p {
+  margin: 0 0 1.5em;
+}
+
+a {
+  color: $link-color-default;
+  text-decoration: none;
+  border-bottom: 1px dotted transparent;
+
+  &:hover,
+  &:focus,
+  &:active {
+    border-bottom: 1px dotted $link-color-default;
+    color: darken($base-font-color, 20%);
+  }
+}
+
+hr {
+  background: transparent;
+  height: 1px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin: 2em 0;
+}

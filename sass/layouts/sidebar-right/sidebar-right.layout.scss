@@ -1,0 +1,79 @@
+/*******************************************************************************
+ * sidebar-right.layout.scss
+ *
+ * Styling of the "Golden" layout demonstrating the golden rule and asymmetric
+ * grids with Singularity.
+ ******************************************************************************/
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+
+// Set consistent vertical and horizontal spacing units.
+$vert-spacing-unit: 20px;
+$horz-spacing-unit: 1em;
+
+// Set breakpoint values.
+$tab  : 700px;
+$desk : 1250px;
+
+// Set Singularity grid variables.
+$grids: 1;
+$grids: add-grid(8 4 at $tab);
+$grids: add-grid(9 3 at $desk);
+
+$gutters: 1/3;
+
+.panel-display--sidebar-right {
+  @include pie-clearfix;
+}
+
+.sidebar-right-region {
+  margin-bottom: $vert-spacing-unit;
+}
+
+
+@include breakpoint($tab) {
+  .has-one-sidebar {
+    .sidebar-right-region--first {
+      @include grid-span(1, 1);
+    }
+    .sidebar-right-region--second {
+      @include isolation-span(1, 2);
+    }
+  }
+  .has-two-sidebars {
+    .sidebar-right-region--first {
+      @include grid-span(1, 1);
+    }
+    .sidebar-right-region--second {
+      @include isolation-span(1, 2);
+    }
+  }
+}
+
+@include breakpoint($desk, true) {
+  .has-no-sidebars {
+    .sidebar-right-region--first {
+      @include grid-span(1, 1);
+    }
+    .sidebar-right-region--second {
+      @include grid-span(1, 2);
+    }
+  }
+  .has-one-sidebar {
+    @include layout(2 1, $gutter: .12) {
+      .sidebar-right-region--first {
+        @include grid-span(1, 1);
+      }
+      .sidebar-right-region--second {
+        @include grid-span(1, 2);
+      }
+    }
+  }
+  .has-two-sidebars {
+    .sidebar-right-region--first,
+    .sidebar-right-region--second {
+      @include grid-span(2, 1);
+    }
+  }
+}

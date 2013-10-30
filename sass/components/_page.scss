@@ -1,0 +1,98 @@
+.l-header {
+  background: #222;
+  padding: 1em 0;
+  border-bottom: 1px solid #333;
+}
+
+.l-navigation {
+  background-color: #222;
+  border-top: 1px solid #111;
+
+  .l-container {
+    margin-bottom: 0;
+  }
+}
+
+.l-main-header {
+  background: #efefef;
+  padding: 1em 0;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    background-color: #000;
+    @include border-radius(50%);
+    @include box-shadow(0px 0px 8px 5px rgba(0,0,0,.15));
+    z-index: -1;
+  }
+
+  &:after {
+    bottom: 0px;
+  }
+}
+
+.l-footer {
+  background: #222;
+  padding: 2em 0;
+  color: #fff;
+
+  h2, h3, h4, h5, h6,
+  a {
+    color: #fff;
+  }
+}
+
+.site-name {
+  margin: 0;
+
+  a {
+    font-weight: $font-weight-light;
+    color: $yellow;
+    @include transition(color, 300ms);
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: #fff;
+      border-bottom: none;
+    }
+  }
+}
+
+.site-slogan {
+  margin: 0;
+  color: #aaaaaa;
+  @include font-size(2);
+}
+
+.page-title {
+  margin: 0;
+  @include font-size(2.2);
+  font-weight: $font-weight-normal;
+}
+
+.front .pane-featured-slider-featured-slider-all {
+  .pane-title {
+    @include element-invisible;
+  }
+}
+
+.panel-pane {
+  margin-bottom: $vert-spacing;
+}
+
+.more-link {
+  margin-top: 1em;
+
+  a {
+    @include btn;
+
+    &:before {
+      @include icon($fa-var-angle-double-right);
+    }
+  }
+}

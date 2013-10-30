@@ -1,0 +1,6 @@
+.pane-title,
+.block__title {
+  @include font-size(1.6);
+  font-weight: $font-weight-semi-bold;
+  margin-bottom: 1em;
+}

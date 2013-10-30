@@ -1,0 +1,142 @@
+.flexslider {
+  margin: 0;
+  border-left: none;
+  border-right: none;
+  @include border-radius(0);
+  @include box-shadow(none);
+
+  .slides img {
+    height: auto;
+  }
+}
+
+.flexslider {
+  @extend %box-shadow-1;
+  margin-bottom: 40px;
+
+  .views-field-title {
+    width: 100%;
+    padding: 1em;
+    background: #222;
+    color: #fff;
+    @include cf;
+  }
+
+  .views-field-slideshow-title {
+    font-weight: $font-weight-semi-bold;
+  }
+
+  .views-field-slideshow-description {
+    font-weight: $font-weight-light;
+  }
+
+  .views-field-slideshow-link {
+    display: block;
+
+    a {
+      @include btn($color: #fff);
+      display: block;
+      float: left;
+      margin: 1em 0 0;
+
+
+      &:before {
+        @include icon($fa-var-angle-double-right, $margin-right: .3em);
+      }
+    }
+  }
+}
+
+// Paging Controls
+.flex-control-paging {
+  text-align: left;
+  bottom: -35px;
+
+  li {
+    margin: 0 .2em 0 0;
+
+    a {
+      background: #777;
+      border: 2px solid #777;
+      width: 10px;
+      height: 10px;
+      @include box-shadow(0 0 0 #fff);
+    }
+
+    a.flex-active {
+      background: transparent;
+    }
+  }
+}
+
+// Directional Controls :: Arrows
+.flexslider {
+  .flex-direction-nav a {
+    display: block;
+    top: auto;
+    bottom: -25px;
+    @include opacity(1);
+
+    &.flex-prev,
+    &.flex-next {
+      background-image: none;
+      text-indent: 0;
+      height: auto;
+      width: auto;
+      @include font-size(0);
+      right: auto;
+      left: auto;
+
+      &:before {
+        @include font-size(1.2);
+        color: #777;
+      }
+    }
+
+    &.flex-prev {
+      right: 60px;
+
+      &:before {
+        @include icon($fa-var-backward);
+      }
+    }
+
+    &.flex-next {
+      right: 5px;
+
+      &:before {
+        @include icon($fa-var-forward);
+      }
+    }
+  }
+
+  &:hover {
+    .flex-prev {
+      //left: 20px;
+    }
+
+    .flex-next {
+      //right: 20px;
+    }
+  }
+
+  // Play Pause Controls
+  .flex-pauseplay {
+    bottom: 3px;
+    height: auto;
+    width: auto;
+    right: 33px;
+    overflow: hidden;
+    position: absolute;
+    @include font-size(0);
+  }
+
+  .flex-pause:before {
+    @include icon($fa-var-pause, $color: #777, $size: 12px);
+  }
+
+  .flex-play:before {
+    @include icon($fa-var-play, $color: #777, $size: 12px);
+  }
+}
+

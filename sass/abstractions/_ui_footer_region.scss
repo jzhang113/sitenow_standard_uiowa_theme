@@ -1,0 +1,25 @@
+.l-footer {
+  #ui-global-footer {
+    background: transparent;
+    border: none;
+    @include box-shadow(0 0 0 #fff);
+    padding: 0;
+
+    @include breakpoint(1200px) {
+      float: left;
+      margin-right: 4em;
+    }
+  }
+
+  .sitenow-footer-info {
+    @include breakpoint(1200px) {
+      float: left;
+    }
+  }
+
+  #sitenow-footer-social-links {
+    @include breakpoint(1200px) {
+      float: right;
+    }
+  }
+}
