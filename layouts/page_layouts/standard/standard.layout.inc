@@ -1,7 +1,7 @@
-name = Test
+name = Standard
 description = Page layout for uiowa_standard Omega subtheme.
 preview = preview.png
-template = test-layout
+template = standard-layout
 
 ; Regions
 regions[branding]       = Branding
@@ -15,4 +15,4 @@ regions[sidebar_second] = Second sidebar
 regions[footer]         = Footer
 
 ; Stylesheets
-stylesheets[all][] = css/layouts/simple/simple.layout.css
+stylesheets[all][] = css/layouts/standard/standard.layout.css

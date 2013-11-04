@@ -1,4 +1,4 @@
-@include breakpoint(1200px) {
+@mixin flexslider_title_overlay {
   .flexslider {
 
     .views-field-title {
@@ -16,6 +16,10 @@
       }
     }
   }
+}
+
+@include breakpoint(1200px) {
+  @include flexslider_title_overlay;
 }
 
 

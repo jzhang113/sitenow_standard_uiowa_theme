@@ -1,0 +1,115 @@
+.view-display-id-articles_grid {
+
+  .view-content {
+  }
+
+  .views-row {
+    margin-bottom: 1em;
+
+    .has-no-sidebars & {
+      // 3 col grid for tablet displays
+      @include breakpoint($tab-only) {
+        @include float-span(4);
+        &:nth-child(3n+1) {
+          @include float-span(4, 'first');
+        }
+        &:nth-child(3n+3) {
+          @include float-span(4, 'last');
+        }
+      }
+      // 4 col grid for desktop and up displays
+      @include breakpoint($desk) {
+        @include float-span(3);
+        &:nth-child(4n+1) {
+          @include float-span(3, 'first');
+        }
+        &:nth-child(4n+4) {
+          @include float-span(3, 'last');
+        }
+      }
+    }
+
+    .has-one-sidebar & {
+      // 3 col grid for tablet displays
+      @include breakpoint($tab) {
+        @include float-span(4);
+        &:nth-child(3n+1) {
+          @include float-span(4, 'first');
+        }
+        &:nth-child(3n+3) {
+          @include float-span(4, 'last');
+        }
+      }
+    }
+
+    .has-two-sidebars & {
+      // 3 col grid for tablet displays
+      @include breakpoint($tab) {
+        @include float-span(4);
+        &:nth-child(3n+1) {
+          @include float-span(4, 'first');
+        }
+        &:nth-child(3n+3) {
+          @include float-span(4, 'last');
+        }
+      }
+      // 2 col grid for desktop and up displays
+      @include breakpoint($desk) {
+        @include float-span(6);
+        &:nth-child(odd) {
+          @include float-span(6, 'first');
+        }
+        &:nth-child(even) {
+          @include float-span(6, 'last');
+        }
+      }
+    }
+  }
+
+  .views-field {
+    margin-bottom: .5em;
+  }
+
+  .views-field-title {
+
+    h3 {
+      margin-bottom: 0;
+    }
+
+    a {
+      font-weight: 100;
+      @include font-size(2.6);
+    }
+  }
+
+  .views-field-field-image {
+    @extend %box-shadow-1;
+    line-height: 0;
+    max-width: 500px;
+    margin: 1em 0;
+
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+  }
+
+  .views-field-field-article-body {}
+
+  .views-field-view-node a {
+    @include inline-block;
+    padding: .1em .6em;
+    border: 3px solid $link-color-default;
+    background: $link-color-default;
+    color: #fff;
+    @include font-size(1.5);
+    @include transition(all, 300ms);
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: transparent;
+      color: $link-color-default;
+    }
+  }
+}

@@ -1,0 +1,90 @@
+/*******************************************************************************
+ * colossus.layout.scss
+ *
+ * Styling of the "Colossus" layout
+ * grids with Singularity.
+ ******************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000319}}
+.panel-display--colossus {
+  *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/\.rvm\/gems\/ruby-1\.9\.3-p448\@omega\.uiowa_standard\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+  .panel-display--colossus:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000323}}
+.colossus-region {
+  margin-bottom: 40px; }
+
+@media (min-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000330}}
+  .has-one-sidebar .colossus-region--first {
+    width: 64.86486%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000333}}
+  .has-one-sidebar .colossus-region--second {
+    width: 32.43243%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000338}}
+  .has-two-sidebars .colossus-region--first {
+    width: 64.86486%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000341}}
+  .has-two-sidebars .colossus-region--second {
+    width: 32.43243%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; } }
+@media (min-width: 1250px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000350}}
+  .has-no-sidebars .colossus-region--first,
+  .panels-dnd .colossus-region--first {
+    width: 72.97297%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000353}}
+  .has-no-sidebars .colossus-region--second,
+  .panels-dnd .colossus-region--second {
+    width: 24.32432%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000359}}
+  .has-one-sidebar .colossus-region--first {
+    width: 64.10256%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000362}}
+  .has-one-sidebar .colossus-region--second {
+    width: 32.05128%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000369}}
+  .has-two-sidebars .colossus-region--first,
+  .has-two-sidebars .colossus-region--second {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; } }

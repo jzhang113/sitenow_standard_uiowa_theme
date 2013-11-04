@@ -1,0 +1,73 @@
+/*******************************************************************************
+ * guardian.layout.scss
+ *
+ * Styling of the "guardian" layout
+ * grids with Singularity.
+ ******************************************************************************/
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "../../variables/breakpoints";
+
+// Set Singularity grid variables.
+$grids: 1;
+$grids: add-grid(4 8 at $tab);
+$grids: add-grid(3 9 at $desk);
+
+$gutters: 1/3;
+
+.panel-display--guardian {
+  @include pie-clearfix;
+}
+
+.guardian-region {
+  margin-bottom: $vert-spacing-unit;
+}
+
+
+@include breakpoint($tab) {
+  .has-one-sidebar {
+    .guardian-region--first {
+      @include grid-span(1, 1);
+    }
+    .guardian-region--second {
+      @include isolation-span(1, 2);
+    }
+  }
+  .has-two-sidebars {
+    .guardian-region--first {
+      @include grid-span(1, 1);
+    }
+    .guardian-region--second {
+      @include isolation-span(1, 2);
+    }
+  }
+}
+
+@include breakpoint($desk, true) {
+  .has-no-sidebars,
+  .panels-dnd {
+    .guardian-region--first {
+      @include grid-span(1, 1);
+    }
+    .guardian-region--second {
+      @include grid-span(1, 2);
+    }
+  }
+  .has-one-sidebar {
+    @include layout(2 1, $gutter: .12) {
+      .guardian-region--first {
+        @include grid-span(1, 1);
+      }
+      .guardian-region--second {
+        @include grid-span(1, 2);
+      }
+    }
+  }
+  .has-two-sidebars {
+    .guardian-region--first,
+    .guardian-region--second {
+      @include grid-span(2, 1);
+    }
+  }
+}

@@ -81,8 +81,12 @@
   }
 }
 
+aside .block {
+  margin-bottom: $vert-spacing-unit;
+}
+
 .panel-pane {
-  margin-bottom: $vert-spacing;
+  margin-bottom: $vert-spacing-unit;
 }
 
 .more-link {
@@ -96,3 +100,13 @@
     }
   }
 }
+
+.omega-browser-width {
+  z-index: 999999;
+}
+
+.panels-choose-layout .current-layout {
+  background: #E6F9FF;
+  @include box-shadow(0px 0px 4px #AEE2FE inset);
+}
+

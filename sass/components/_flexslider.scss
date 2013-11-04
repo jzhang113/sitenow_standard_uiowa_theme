@@ -4,6 +4,7 @@
   border-right: none;
   @include border-radius(0);
   @include box-shadow(none);
+  background: #fff;
 
   .slides img {
     height: auto;
