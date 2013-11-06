@@ -21,6 +21,7 @@
     line-height: 0;
     max-width: 500px;
     margin: 1em 0;
+    @include inline-block;
 
     img {
       height: auto;
