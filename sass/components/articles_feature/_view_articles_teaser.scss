@@ -1,5 +1,11 @@
 .view-display-id-articles_teaser {
 
+  .views-row {
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom: 4px solid #eee;
+  }
+
   .views-field {
     margin-bottom: 1em;
   }
@@ -21,6 +27,7 @@
     line-height: 0;
     max-width: 500px;
     @include inline-block;
+    max-width: 100%;
 
     img {
       height: auto;
@@ -43,11 +50,5 @@
       background: transparent;
       color: $link-color-default;
     }
-  }
-
-  .views-row {
-    margin-bottom: 2em;
-    padding-bottom: 2em;
-    border-bottom: 4px solid #eee;
   }
 }
