@@ -404,6 +404,32 @@ aside .block {
   -moz-box-shadow: 0px 0px 4px #aee2fe inset;
   box-shadow: 0px 0px 4px #aee2fe inset; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/_views_summary\.scss}line{font-family:\000031}}
+.views-summary {
+  margin: 0;
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/_views_summary\.scss}line{font-family:\000035}}
+  .views-summary li {
+    list-style: none;
+    position: relative;
+    padding-right: 40px;
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+    border-bottom: 1px dotted #ddd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/_views_summary\.scss}line{font-family:\0000314}}
+  .views-summary .summary-count {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    font-size: 12px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #777777;
+    border: 1px solid #ccc;
+    padding: .1em .3em;
+    text-align: center;
+    min-width: 25px; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/articles_feature\/_panel_articles\.scss}line{font-family:\000033}}
 .section-articles .pane-articles-articles-teaser .pane-title {
   border: 0;
