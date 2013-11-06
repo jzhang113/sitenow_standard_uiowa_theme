@@ -4,5 +4,7 @@ $page-max-width: 1250px;
 
 $desk: $page-max-width;
 $tab: 700px;
+$mobile: 500px;
 
 $tab-only: $tab ($desk - 1px);
+$mobile-only: max-width ($mobile - 1px);
