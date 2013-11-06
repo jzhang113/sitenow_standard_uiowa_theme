@@ -8,30 +8,35 @@
 
 function uiowa_standard_breadcrumb($vars) {
 
-  $breadcrumb = $vars['breadcrumb'];
+  $output = '';
 
-  if (!empty($breadcrumb)) {
+  if (!empty($vars['breadcrumb'])) {
 
-    // Provide a navigational heading to give context for breadcrumb links to
-    // screen-reader users. Make the heading invisible with .element-invisible.
-    $output = '<h2 class="element-invisible">' . t('You are here') . '</h2>';
-
-    $crumbs = '<ul class="breadcrumbs clearfix">';
-
-    $array_size = count($breadcrumb);
-    $i = 0;
-    while ( $i < $array_size) {
-      $crumbs .= '<li class="breadcrumb-' . $i;
-      if ($i == 0) {
-        $crumbs .= ' first';
-      }
-      if ($i+1 == $array_size) {
-        $crumbs .= ' last';
-      }
-      $crumbs .=  '">' . $breadcrumb[$i] . '</li>';
-      $i++;
+    if ($vars['breadcrumb_current']) {
+      $vars['breadcrumb'][] = l(drupal_get_title(), current_path(), array('html' => TRUE));
     }
-    $crumbs .= '</ul>';
-    return $crumbs;
+
+    $output = '<div id="breadcrumb" class="clearfix"><ul class="breadcrumb">';
+    $switch = array('odd' => 'even', 'even' => 'odd');
+    $zebra = 'even';
+    $last = count($vars['breadcrumb']) - 1;
+    $seperator = '<span class="breadcrumb-seperator">//</span>';
+
+    foreach ($vars['breadcrumb'] as $key => $item) {
+      $zebra = $switch[$zebra];
+      $attributes['class'] = array('depth-' . ($key + 1), $zebra);
+      if ($key == 0) {
+        $attributes['class'][] = 'first';
+      }
+      if ($key == $last) {
+        $attributes['class'][] = 'last';
+        $output .= '<li' . drupal_attributes($attributes) . '>' . $item . '</li>' . '';
+      }
+      else
+        $output .= '<li' . drupal_attributes($attributes) . '>' . $item . '</li>' . $seperator;
+      }
+
+    $output .= '</ul></div>';
+    return $output;
   }
 }

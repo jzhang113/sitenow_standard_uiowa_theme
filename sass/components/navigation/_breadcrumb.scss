@@ -1,12 +1,15 @@
-.breadcrumbs {
+.breadcrumb {
+  @include font-size(1.4);
   margin: 0;
   padding: 0;
 
   li {
     list-style: none;
-    margin-right: 1em;
     font-weight: $font-weight-semi-bold;
     @include inline-block;
-    @include font-size(1.4);
+  }
+
+  .breadcrumb-seperator {
+    margin: 0 .5em;
   }
 }

@@ -508,22 +508,24 @@ aside .block {
     color: #81642b; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/navigation\/_breadcrumb\.scss}line{font-family:\000031}}
-.breadcrumbs {
+.breadcrumb {
+  font-size: 14px;
+  font-size: 1.4rem;
   margin: 0;
   padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/navigation\/_breadcrumb\.scss}line{font-family:\000035}}
-  .breadcrumbs li {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/navigation\/_breadcrumb\.scss}line{font-family:\000036}}
+  .breadcrumb li {
     list-style: none;
-    margin-right: 1em;
     font-weight: 600;
     display: -moz-inline-stack;
     display: inline-block;
     vertical-align: middle;
     *vertical-align: auto;
     zoom: 1;
-    *display: inline;
-    font-size: 14px;
-    font-size: 1.4rem; }
+    *display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/navigation\/_breadcrumb\.scss}line{font-family:\0000312}}
+  .breadcrumb .breadcrumb-seperator {
+    margin: 0 .5em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/navigation\/_main\.scss}line{font-family:\000032}}
 .l-region--navigation .block--responsive-navigation-1 .block__title {
