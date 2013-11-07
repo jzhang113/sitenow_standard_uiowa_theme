@@ -130,14 +130,14 @@
       &:active {
       }
     }
-  }
 
-  .flex-pause:before {
-    @include icon($fa-var-pause, $color: #777, $size: 12px);
-  }
+    a.flex-pause:before {
+      @include icon($fa-var-pause, $color: #777, $size: 12px);
+    }
 
-  .flex-play:before {
-    @include icon($fa-var-play, $color: #777, $size: 12px);
+    a.flex-play:before {
+      @include icon($fa-var-play, $color: #777, $size: 12px);
+    }
   }
 }
 
