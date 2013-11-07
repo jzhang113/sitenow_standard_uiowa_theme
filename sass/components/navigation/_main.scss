@@ -57,9 +57,12 @@
       &:hover,
       &:focus,
       &:active {
-        margin-bottom: -3px;
-        border-top: 3px solid $yellow;
-        border-bottom: none;
+
+        @include breakpoint($bp-responsive-nav) {
+          margin-bottom: -3px;
+          border-top: 3px solid $yellow;
+          border-bottom: none;
+        }
       }
     }
 

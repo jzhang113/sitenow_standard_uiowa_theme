@@ -582,7 +582,6 @@ aside .block {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/articles_feature\/_view_articles_teaser\.scss}line{font-family:\0000325}}
 .view-display-id-articles_teaser .views-field-field-image, .view-display-id-articles_grid .views-field-field-image {
   line-height: 0;
-  max-width: 500px;
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
@@ -590,11 +589,11 @@ aside .block {
   zoom: 1;
   *display: inline;
   max-width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/articles_feature\/_view_articles_teaser\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/articles_feature\/_view_articles_teaser\.scss}line{font-family:\0000331}}
   .view-display-id-articles_teaser .views-field-field-image img, .view-display-id-articles_grid .views-field-field-image img {
     height: auto;
     max-width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/articles_feature\/_view_articles_teaser\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/articles_feature\/_view_articles_teaser\.scss}line{font-family:\0000337}}
 .view-display-id-articles_teaser .views-field-view-node a, .view-display-id-articles_grid .views-field-view-node a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -612,7 +611,7 @@ aside .block {
   -moz-transition: all, 300ms;
   -o-transition: all, 300ms;
   transition: all, 300ms; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/articles_feature\/_view_articles_teaser\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/articles_feature\/_view_articles_teaser\.scss}line{font-family:\0000348}}
   .view-display-id-articles_teaser .views-field-view-node a:hover, .view-display-id-articles_grid .views-field-view-node a:hover, .view-display-id-articles_teaser .views-field-view-node a:focus, .view-display-id-articles_grid .views-field-view-node a:focus, .view-display-id-articles_teaser .views-field-view-node a:active, .view-display-id-articles_grid .views-field-view-node a:active {
     background: transparent;
     color: #81642b; }
@@ -707,16 +706,17 @@ aside .block {
     -moz-transition: all, 100ms;
     -o-transition: all, 100ms;
     transition: all, 100ms; }
+    @media (min-width: 40em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/navigation\/_main\.scss}line{font-family:\0000359}}
-    .l-region--navigation .block--responsive-navigation-1 #nav .responsive-navigation a:hover, .l-region--navigation .block--responsive-navigation-1 #nav .responsive-navigation a:focus, .l-region--navigation .block--responsive-navigation-1 #nav .responsive-navigation a:active {
-      margin-bottom: -3px;
-      border-top: 3px solid #fee000;
-      border-bottom: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/navigation\/_main\.scss}line{font-family:\0000367}}
+      .l-region--navigation .block--responsive-navigation-1 #nav .responsive-navigation a:hover, .l-region--navigation .block--responsive-navigation-1 #nav .responsive-navigation a:focus, .l-region--navigation .block--responsive-navigation-1 #nav .responsive-navigation a:active {
+        margin-bottom: -3px;
+        border-top: 3px solid #fee000;
+        border-bottom: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/navigation\/_main\.scss}line{font-family:\0000370}}
   .l-region--navigation .block--responsive-navigation-1 #nav .responsive-navigation .active-trail a,
   .l-region--navigation .block--responsive-navigation-1 #nav .responsive-navigation .active {
     color: #fee000; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/navigation\/_main\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/components\/navigation\/_main\.scss}line{font-family:\0000374}}
   .l-region--navigation .block--responsive-navigation-1 #nav .responsive-navigation ul {
     display: none; }
 

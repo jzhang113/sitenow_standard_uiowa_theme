@@ -1,6 +1,6 @@
 .pager {
 
-  @include breakpoint($mobile-only) {
+  @include breakpoint($bp-mobile-only) {
     .pager__item {
       display: none;
     }

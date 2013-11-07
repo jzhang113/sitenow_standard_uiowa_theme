@@ -11,8 +11,8 @@
 
 // Set Singularity grid variables.
 $grids: 1;
-$grids: add-grid(8 4 at $tab);
-$grids: add-grid(9 3 at $desk);
+$grids: add-grid(8 4 at $bp-tablet);
+$grids: add-grid(9 3 at $bp-desktop);
 
 $gutters: 1/3;
 
@@ -25,7 +25,7 @@ $gutters: 1/3;
 }
 
 
-@include breakpoint($tab) {
+@include breakpoint($bp-tablet) {
   .has-one-sidebar {
     .colossus-region--first {
       @include grid-span(1, 1);
@@ -44,7 +44,7 @@ $gutters: 1/3;
   }
 }
 
-@include breakpoint($desk, true) {
+@include breakpoint($bp-desktop, true) {
   .has-no-sidebars,
   .panels-dnd {
     .colossus-region--first {
