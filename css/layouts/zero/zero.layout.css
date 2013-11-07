@@ -4,7 +4,7 @@
  * Styling of the "Zero" layout
  * grids with Singularity.
  ******************************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/layouts\/zero\/zero\.layout\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/zero\/zero\.layout\.scss}line{font-family:\0000319}}
 .panel-display--zero {
   *zoom: 1; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/\.rvm\/gems\/ruby-1\.9\.3-p448\@omega\.uiowa_standard\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
@@ -13,6 +13,6 @@
     display: table;
     clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/uiowa_standard\/sass\/layouts\/zero\/zero\.layout\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/zero\/zero\.layout\.scss}line{font-family:\0000323}}
 .zero-region {
   margin-bottom: 40px; }

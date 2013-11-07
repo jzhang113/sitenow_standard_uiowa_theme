@@ -123,13 +123,7 @@
 
   // Play Pause Controls
   .flex-pauseplay {
-    bottom: 3px;
-    height: auto;
-    width: auto;
-    right: 33px;
-    overflow: hidden;
-    position: absolute;
-    @include font-size(0);
+
   }
 
   .flex-pause:before {

@@ -20,7 +20,7 @@
 
 // We may want to break these into a states partial and look for page and content
 // layouts to control the title_overlay implementaiton of this view
-@include breakpoint(1200px) {
+@include breakpoint($bp-desktop) {
   @include flexslider_title_overlay;
 }
 
