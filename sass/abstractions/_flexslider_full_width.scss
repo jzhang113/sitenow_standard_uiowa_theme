@@ -1,7 +1,7 @@
 @mixin flexslider_title_overlay {
   .flexslider {
 
-    .views-field-title {
+    .flex-caption{
       position: absolute;
       bottom: 0;
       @include rgba-background(rgba(0,0,0,0.75));

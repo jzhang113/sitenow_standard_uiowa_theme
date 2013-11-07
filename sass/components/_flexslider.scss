@@ -6,16 +6,14 @@
   @include box-shadow(none);
   background: #fff;
 
-  .slides img {
-    height: auto;
-  }
+  .slides img {}
 }
 
 .flexslider {
   @extend %box-shadow-1;
   margin-bottom: 40px;
 
-  .views-field-title {
+  .flex-caption {
     width: 100%;
     padding: 1em;
     background: #222;
@@ -95,7 +93,7 @@
     }
 
     &.flex-prev {
-      right: 60px;
+      right: 45px;
 
       &:before {
         @include icon($fa-var-backward);
@@ -103,7 +101,7 @@
     }
 
     &.flex-next {
-      right: 5px;
+      right: 0px;
 
       &:before {
         @include icon($fa-var-forward);
@@ -112,18 +110,26 @@
   }
 
   &:hover {
-    .flex-prev {
-      //left: 20px;
-    }
+    .flex-prev {}
 
-    .flex-next {
-      //right: 20px;
-    }
+    .flex-next {}
   }
 
   // Play Pause Controls
   .flex-pauseplay {
 
+    a {
+      bottom: -24px;
+      left: auto;
+      right: 17px;
+      opacity: 1;
+      text-align: center;
+
+      &:hover,
+      &:focus,
+      &:active {
+      }
+    }
   }
 
   .flex-pause:before {

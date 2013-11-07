@@ -28,10 +28,7 @@
     @include inline-block;
     max-width: 100%;
 
-    img {
-      height: auto;
-      max-width: 100%;
-    }
+    img {}
   }
 
   .views-field-view-node a {
