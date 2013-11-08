@@ -4,7 +4,7 @@
  * Styling of the "standard" layout
  * grids with Singularity.
  ******************************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000322}}
 .l-container,
 .container {
   width: 95%;
@@ -18,34 +18,13 @@
     display: table;
     clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000330}}
 .l-main {
   margin-top: 40px; }
 
-@media (min-width: 700px) {
-  /* Header Area */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000335}}
-  .l-branding {
-    width: 48.64865%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0%;
-    clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000338}}
-  .l-region--header {
-    width: 48.64865%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000341}}
-  .l-region--navigation {
-    clear: both; }
-
+@media (min-width: 500px) {
   /* Content Area */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000336}}
   .l-content {
     width: 100.0%;
     float: right;
@@ -54,32 +33,85 @@
     clear: none; }
 
   /* Sidebars */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000343}}
   .has-one-sidebar .l-region--sidebar-first,
   .has-one-sidebar .l-region--sidebar-second {
     width: 100.0%;
     float: right;
     margin-left: 0;
     margin-right: 0;
-    clear: none; }
+    clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000348}}
   .has-two-sidebars .l-region--sidebar-first {
     width: 48.64865%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
     clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000351}}
   .has-two-sidebars .l-region--sidebar-second {
     width: 48.64865%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; } }
+@media (min-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000361}}
+  .has-one-sidebar.has-sidebar-first .l-content {
+    width: 73.68421%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000364}}
+  .has-one-sidebar.has-sidebar-first .l-region--sidebar-first {
+    width: 23.68421%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000369}}
+  .has-one-sidebar.has-sidebar-second .l-content {
+    width: 73.68421%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000372}}
+  .has-one-sidebar.has-sidebar-second .l-region--sidebar-second {
+    width: 23.68421%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+  /* Content Area */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000379}}
+  .has-two-sidebars .l-content {
+    width: 73.68421%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000383}}
+  .has-two-sidebars .l-region--sidebar-first {
+    width: 23.68421%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000386}}
+  .has-two-sidebars .l-region--sidebar-second {
+    width: 23.68421%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: left; } }
 @media (min-width: 1250px) {
   /* Header Area */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000394}}
   .l-header {
     *zoom: 1; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/\.rvm\/gems\/ruby-1\.9\.3-p448\@omega\.uiowa_standard\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
@@ -88,12 +120,12 @@
       display: table;
       clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000399}}
   .l-region--navigation {
     clear: both; }
 
   /* Content Area */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\00003104}}
   .l-content {
     width: 100.0%;
     float: right;
@@ -101,14 +133,14 @@
     margin-right: 0;
     clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\00003110}}
   .has-one-sidebar.has-sidebar-first .l-content {
     width: 73.68421%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\00003113}}
   .has-one-sidebar.has-sidebar-first .l-region--sidebar-first {
     width: 23.68421%;
     float: left;
@@ -116,14 +148,14 @@
     margin-left: 0%;
     clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\00003118}}
   .has-one-sidebar.has-sidebar-second .l-content {
     width: 73.68421%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
     clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\00003121}}
   .has-one-sidebar.has-sidebar-second .l-region--sidebar-second {
     width: 23.68421%;
     float: right;
@@ -131,21 +163,21 @@
     margin-right: 0;
     clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\00003128}}
   .has-two-sidebars .l-content {
     width: 47.36842%;
     float: left;
     margin-right: -100%;
     margin-left: 26.31579%;
     clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\00003131}}
   .has-two-sidebars .l-region--sidebar-first {
     width: 23.68421%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
     clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/Desktop\/uiowa_standard\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/standard\/standard\.layout\.scss}line{font-family:\00003134}}
   .has-two-sidebars .l-region--sidebar-second {
     width: 23.68421%;
     float: right;

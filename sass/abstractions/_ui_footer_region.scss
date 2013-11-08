@@ -19,7 +19,7 @@
   }
 
   #sitenow-footer-social-links {
-    @include breakpoint(1200px) {
+    @include breakpoint($bp-desktop-large) {
       float: right;
     }
   }

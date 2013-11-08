@@ -12,7 +12,7 @@
 // Set Singularity grid variables.
 $grids: 1;
 $grids: add-grid(8 4 at $bp-tablet);
-$grids: add-grid(9 3 at $bp-desktop);
+$grids: add-grid(9 3 at $bp-desktop-large);
 
 $gutters: 1/3;
 
