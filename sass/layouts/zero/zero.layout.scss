@@ -8,6 +8,7 @@
 @import "breakpoint";
 @import "singularitygs";
 @import "../../variables/breakpoints";
+@import "../../utilities/grids";
 
 // Set Singularity grid variables.
 $grids: 1;
@@ -22,4 +23,9 @@ $gutters: 1/3;
 
 .zero-region {
   margin-bottom: $vert-spacing-unit;
+}
+
+// Views grid reactions
+.zero-region--first .views-grid .views-row {
+  @extend %full-width-grid-4;
 }

@@ -388,10 +388,6 @@ aside .block {
       *margin-right: .3em;
       content: "\f101"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_page\.scss}line{font-family:\00003104}}
-.omega-browser-width {
-  z-index: 999999; }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_views_summary\.scss}line{font-family:\000031}}
 .views-summary {
   margin: 0;

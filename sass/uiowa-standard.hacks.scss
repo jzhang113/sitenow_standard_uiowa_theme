@@ -11,3 +11,9 @@
     }
   }
 }
+
+// Have the browser width indicator overlay the IPE if loaded.
+.omega-browser-width {
+  z-index: 999999;
+}
+

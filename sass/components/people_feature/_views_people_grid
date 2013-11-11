@@ -1,6 +1,4 @@
-.view-display-id-articles_grid {
-
-  @extend .view-display-id-articles_teaser;
+.view-display-id-people_grid {
 
   .view-content {
     @include pie-clearfix;
