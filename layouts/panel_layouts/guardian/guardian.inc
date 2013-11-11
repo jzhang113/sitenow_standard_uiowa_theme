@@ -2,7 +2,7 @@
 
 /**
  * @file
- * 2 Region layout with content(second) and sidebar(first) region for Sitenow standard service.
+ * 2 Region layout with content(first) and sidebar(second) region for Sitenow standard service.
  */
 
 // Plugin definition.
@@ -13,8 +13,8 @@ $plugin = array(
   'theme' => 'guardian',
   'css' => '../../../css/layouts/guardian/guardian.layout.css',
   'regions' => array(
-    'first' => t('Sidebar'),
-    'second' => t('Content'),
+    'first' => t('Content'),
+    'second' => t('Sidebar'),
   ),
 );
 
