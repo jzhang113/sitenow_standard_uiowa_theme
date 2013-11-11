@@ -17,18 +17,13 @@
     }
 
     a {
-      font-weight: 100;
+      font-weight: $font-weight-extra-light;
       @include font-size(2.6);
     }
   }
 
   .views-field-field-image {
     @extend %box-shadow-1;
-    line-height: 0;
-    @include inline-block;
-    max-width: 100%;
-
-    img {}
   }
 
   .views-field-view-node a {

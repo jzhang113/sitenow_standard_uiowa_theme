@@ -18,6 +18,9 @@
   position: relative;
   border-top: 5px solid #fff;
   border-bottom: 5px solid #fff;
+  @include inline-block;
+  max-width: 100%;
+  line-height: 0;
 
   &:before,
   &:after {
