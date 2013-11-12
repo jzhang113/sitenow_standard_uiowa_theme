@@ -440,7 +440,7 @@ aside .block {
     color: #777777; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_views_summary\.scss}line{font-family:\0000336}}
   .views-summary .has-filter:hover:before, .views-summary .has-filter:focus:before, .views-summary .has-filter:active:before {
-    color: #A14557; }
+    color: #a14557; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_views_summary\.scss}line{font-family:\0000341}}
   .views-summary .has-filter .label {
     border: 0;
@@ -725,6 +725,17 @@ aside .block {
   -webkit-font-smoothing: antialiased;
   *margin-right: .3em;
   content: "\f16e"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panel_page_people\.scss}line{font-family:\000033}}
+.page-people .pane-people-people-grid .pane-title {
+  border: 0;
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\000037}}
 .node-type-people .node-full .node__content {
