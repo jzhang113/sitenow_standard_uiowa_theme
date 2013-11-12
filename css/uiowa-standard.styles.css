@@ -427,6 +427,30 @@ aside .block {
     padding: .1em .3em;
     text-align: center;
     min-width: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_views_summary\.scss}line{font-family:\0000328}}
+  .views-summary .has-filter:before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    *margin-right: .3em;
+    content: "\f057";
+    margin-right: 0.2em;
+    color: #777777; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_views_summary\.scss}line{font-family:\0000336}}
+  .views-summary .has-filter:hover:before, .views-summary .has-filter:focus:before, .views-summary .has-filter:active:before {
+    color: #A14557; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_views_summary\.scss}line{font-family:\0000341}}
+  .views-summary .has-filter .label {
+    border: 0;
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/articles_feature\/_panel_articles\.scss}line{font-family:\000033}}
 .section-articles .pane-articles-articles-teaser .pane-title {

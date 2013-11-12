@@ -23,4 +23,23 @@
     text-align: center;
     min-width: 25px;
   }
+
+  .has-filter {
+    &:before {
+      @include icon($fa-var-times-circle, $margin-right: .2em, $color: #777);
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+
+      &:before {
+        color: #A14557;
+      }
+    }
+
+    .label {
+      @include element-invisible;
+    }
+  }
 }
