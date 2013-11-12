@@ -22,9 +22,8 @@
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
-  max-width: 100%;
-  line-height: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_classes\.scss}line{font-family:\0000326}}
+  max-width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_classes\.scss}line{font-family:\0000325}}
   .flexslider:before, .view-display-id-articles_teaser .views-field-field-image:before, .view-display-id-articles_grid .views-field-field-image:before, .node-type-people .node-full .field--name-field-person-image:before, .view-display-id-people_grid .views-field-field-person-image:before, .flexslider:after, .view-display-id-articles_teaser .views-field-field-image:after, .view-display-id-articles_grid .views-field-field-image:after, .node-type-people .node-full .field--name-field-person-image:after, .view-display-id-people_grid .views-field-field-person-image:after {
     content: "";
     position: absolute;
@@ -41,10 +40,10 @@
     -moz-box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2);
     z-index: -1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_classes\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_classes\.scss}line{font-family:\0000337}}
   .flexslider:before, .view-display-id-articles_teaser .views-field-field-image:before, .view-display-id-articles_grid .views-field-field-image:before, .node-type-people .node-full .field--name-field-person-image:before, .view-display-id-people_grid .views-field-field-person-image:before {
     top: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_classes\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_classes\.scss}line{font-family:\0000341}}
   .flexslider:after, .view-display-id-articles_teaser .views-field-field-image:after, .view-display-id-articles_grid .views-field-field-image:after, .node-type-people .node-full .field--name-field-person-image:after, .view-display-id-people_grid .views-field-field-person-image:after {
     bottom: -4px; }
 
@@ -467,7 +466,10 @@ aside .block {
   font-weight: 200;
   font-size: 26px;
   font-size: 2.6rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/articles_feature\/_view_articles_teaser\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/articles_feature\/_view_articles_teaser\.scss}line{font-family:\0000325}}
+.view-display-id-articles_teaser .views-field-field-image, .view-display-id-articles_grid .views-field-field-image {
+  line-height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/articles_feature\/_view_articles_teaser\.scss}line{font-family:\0000330}}
 .view-display-id-articles_teaser .views-field-view-node a, .view-display-id-articles_grid .views-field-view-node a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -485,7 +487,7 @@ aside .block {
   -moz-transition: all, 300ms;
   -o-transition: all, 300ms;
   transition: all, 300ms; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/articles_feature\/_view_articles_teaser\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/articles_feature\/_view_articles_teaser\.scss}line{font-family:\0000341}}
   .view-display-id-articles_teaser .views-field-view-node a:hover, .view-display-id-articles_grid .views-field-view-node a:hover, .view-display-id-articles_teaser .views-field-view-node a:focus, .view-display-id-articles_grid .views-field-view-node a:focus, .view-display-id-articles_teaser .views-field-view-node a:active, .view-display-id-articles_grid .views-field-view-node a:active {
     background: transparent;
     color: #81642b; }
@@ -736,7 +738,7 @@ aside .block {
   *margin-right: .3em;
   content: "\f16e"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\000037}}
 .node-type-people .node-full .node__content {
   *zoom: 1; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/\.rvm\/gems\/ruby-1\.9\.3-p448\@omega\.uiowa_standard\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
@@ -744,38 +746,39 @@ aside .block {
     content: "";
     display: table;
     clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000311}}
 .node-type-people .node-full > h2 {
   font-weight: 700;
   font-size: 30px;
   font-size: 3rem;
   margin-bottom: .5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000317}}
 .node-type-people .node-full .field--label-above {
   margin-top: .75em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000322}}
 .node-type-people .node-full .field--name-field-person-image {
+  line-height: 0;
   margin-bottom: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000330}}
 .node-type-people .node-full .field--name-field-person-position .field__items {
   font-size: 22px;
   font-size: 2.2rem;
   font-style: italic; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000337}}
 .node-type-people .node-full .field--name-field-person-email {
   margin-bottom: .5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000342}}
 .node-type-people .node-full .field--name-field-person-bio {
   margin-top: 1em; }
 @media (min-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000348}}
   .node-type-people .node-full .field--name-field-person-image {
     width: 40.81633%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000358}}
   .node-type-people .node-full .field--name-field-person-position,
   .node-type-people .node-full .field--name-field-person-email,
   .node-type-people .node-full .field--name-field-person-department,
@@ -788,7 +791,35 @@ aside .block {
     margin-right: -100%;
     margin-left: 0%;
     clear: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000362}}
+  .node-type-people .node-full .field--name-field-person-bio {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: both; } }
+@media (min-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000368}}
+  .node-type-people .node-full .field--name-field-person-image {
+    width: 32.65306%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000378}}
+  .node-type-people .node-full .field--name-field-person-position,
+  .node-type-people .node-full .field--name-field-person-email,
+  .node-type-people .node-full .field--name-field-person-department,
+  .node-type-people .node-full .field--name-field-person-phone,
+  .node-type-people .node-full .field--name-field-person-office,
+  .node-type-people .node-full .field--name-field-person-website,
+  .node-type-people .node-full .field--name-field-person-type {
+    width: 65.30612%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000382}}
   .node-type-people .node-full .field--name-field-person-bio {
     width: 100%;
     float: right;
@@ -820,6 +851,9 @@ aside .block {
   font-weight: 200;
   font-size: 26px;
   font-size: 2.6rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_views_people_grid\.scss}line{font-family:\0000329}}
+.view-display-id-people_grid .views-field-field-person-image {
+  line-height: 0; }
 
 @media (min-width: 1250px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/abstractions\/_flexslider_full_width\.scss}line{font-family:\000034}}

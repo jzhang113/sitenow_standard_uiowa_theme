@@ -1,5 +1,6 @@
 $grids: 1;
 $grids: add-grid(7 5 at $bp-mobile);
+$grids: add-grid(8 4 at $bp-desktop);
 
 .node-type-people .node-full {
 
@@ -20,6 +21,7 @@ $grids: add-grid(7 5 at $bp-mobile);
   // Photo Field
   .field--name-field-person-image {
     @extend %box-shadow-1;
+    line-height: 0;
     margin-bottom: 1em;
   }
 
@@ -43,6 +45,26 @@ $grids: add-grid(7 5 at $bp-mobile);
 
   // Layouts
   @include breakpoint($bp-mobile) {
+    .field--name-field-person-image {
+      @include grid-span(1, 2);
+    }
+
+    .field--name-field-person-position,
+    .field--name-field-person-email,
+    .field--name-field-person-department,
+    .field--name-field-person-phone,
+    .field--name-field-person-office,
+    .field--name-field-person-website,
+    .field--name-field-person-type {
+      @include isolation-span(1, 1, 'left');
+    }
+
+    .field--name-field-person-bio {
+      @include isolation-span(2, 1, 'both');
+    }
+  }
+
+  @include breakpoint($bp-desktop) {
     .field--name-field-person-image {
       @include grid-span(1, 2);
     }

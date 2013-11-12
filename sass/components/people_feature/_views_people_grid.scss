@@ -28,5 +28,6 @@
 
   .views-field-field-person-image {
     @extend %box-shadow-1;
+    line-height: 0;
   }
 }

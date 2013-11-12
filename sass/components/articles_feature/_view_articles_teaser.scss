@@ -24,6 +24,7 @@
 
   .views-field-field-image {
     @extend %box-shadow-1;
+    line-height: 0;
   }
 
   .views-field-view-node a {
