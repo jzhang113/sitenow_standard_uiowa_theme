@@ -146,8 +146,9 @@ hr {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000312}}
 .flexslider {
-  margin-bottom: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000316}}
+  margin-bottom: 40px;
+  background: #222222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000317}}
   .flexslider .flex-caption {
     width: 100%;
     padding: 1em;
@@ -156,16 +157,16 @@ hr {
     overflow: hidden;
     *overflow: visible;
     *zoom: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000325}}
   .flexslider .views-field-slideshow-title {
     font-weight: 600; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000329}}
   .flexslider .views-field-slideshow-description {
     font-weight: 300; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000333}}
   .flexslider .views-field-slideshow-link {
     display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000336}}
     .flexslider .views-field-slideshow-link a {
       color: white;
       padding: .1em .6em;
@@ -175,7 +176,7 @@ hr {
       display: block;
       float: left;
       margin: 1em 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000343}}
       .flexslider .views-field-slideshow-link a:before {
         font-family: FontAwesome;
         font-weight: normal;
@@ -186,14 +187,14 @@ hr {
         content: "\f101";
         margin-right: 0.3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000351}}
 .flex-control-paging {
   text-align: left;
   bottom: -35px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000355}}
   .flex-control-paging li {
     margin: 0 .2em 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000358}}
     .flex-control-paging li a {
       background: #777;
       border: 2px solid #777;
@@ -202,18 +203,18 @@ hr {
       -webkit-box-shadow: 0 0 0 white;
       -moz-box-shadow: 0 0 0 white;
       box-shadow: 0 0 0 white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000366}}
     .flex-control-paging li a.flex-active {
       background: transparent; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000374}}
 .flexslider .flex-direction-nav a {
   display: block;
   top: auto;
   bottom: -25px;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000381}}
   .flexslider .flex-direction-nav a.flex-prev, .flexslider .flex-direction-nav a.flex-next {
     background-image: none;
     text-indent: 0;
@@ -223,15 +224,15 @@ hr {
     font-size: 0rem;
     right: auto;
     left: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000390}}
     .flexslider .flex-direction-nav a.flex-prev:before, .flexslider .flex-direction-nav a.flex-next:before {
       font-size: 12px;
       font-size: 1.2rem;
       color: #777; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000396}}
   .flexslider .flex-direction-nav a.flex-prev {
     right: 45px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\0000399}}
     .flexslider .flex-direction-nav a.flex-prev:before {
       font-family: FontAwesome;
       font-weight: normal;
@@ -240,10 +241,10 @@ hr {
       -webkit-font-smoothing: antialiased;
       *margin-right: .3em;
       content: "\f04a"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\00003104}}
   .flexslider .flex-direction-nav a.flex-next {
     right: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\00003107}}
     .flexslider .flex-direction-nav a.flex-next:before {
       font-family: FontAwesome;
       font-weight: normal;
@@ -252,14 +253,14 @@ hr {
       -webkit-font-smoothing: antialiased;
       *margin-right: .3em;
       content: "\f04e"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\00003122}}
 .flexslider .flex-pauseplay a {
   bottom: -24px;
   left: auto;
   right: 17px;
   opacity: 1;
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\00003135}}
 .flexslider .flex-pauseplay a.flex-pause:before {
   font-family: FontAwesome;
   font-weight: normal;
@@ -270,7 +271,7 @@ hr {
   content: "\f04c";
   font-size: 12px;
   color: #777777; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_flexslider\.scss}line{font-family:\00003139}}
 .flexslider .flex-pauseplay a.flex-play:before {
   font-family: FontAwesome;
   font-weight: normal;
