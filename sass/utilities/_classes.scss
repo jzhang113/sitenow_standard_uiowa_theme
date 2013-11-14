@@ -1,3 +1,5 @@
+@import "mixins";
+
 %simple-list {
   .item-list ul {
     margin: 0;
@@ -42,3 +44,21 @@
     bottom: -4px;
   }
 }
+
+%views-read-more,
+%btn-filled {
+    @include inline-block;
+    padding: .1em .6em;
+    border: 3px solid $link-color-default;
+    background: $link-color-default;
+    color: #fff;
+    @include font-size(1.5);
+    @include transition(all, 300ms);
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: transparent;
+      color: $link-color-default;
+    }
+  }

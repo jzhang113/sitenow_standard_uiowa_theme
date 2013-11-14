@@ -1,6 +1,5 @@
-.field--label-above {
-  .field__label {
-    @include font-size(1.4);
-    font-weight: $font-weight-semi-bold;
-  }
+.field--label-above .field__label,
+%label-above {
+  @include font-size(1.4);
+  font-weight: $font-weight-semi-bold;
 }

@@ -10,3 +10,7 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/uiowa-standard\.hacks\.scss}line{font-family:\0000316}}
 .omega-browser-width {
   z-index: 999999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/uiowa-standard\.hacks\.scss}line{font-family:\0000320}}
+.panels-choose-layout .current-layout {
+  background: #E6F9FF; }
