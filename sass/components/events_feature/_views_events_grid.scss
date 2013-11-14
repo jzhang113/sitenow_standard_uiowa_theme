@@ -1,8 +1,10 @@
 .view-display-id-events_grid {
-  //@include background-grid;
+
+  .view-content {
+    @include pie-clearfix;
+  }
 
   .views-row {
-    @include cf;
     margin-bottom: 2em;
     padding-bottom: 2em;
     border-bottom: 4px solid #eee;
