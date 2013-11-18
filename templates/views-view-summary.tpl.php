@@ -5,8 +5,8 @@
  *
  * @ingroup views_templates
  */
-
-$base_path = '/' . $view->style_options['base_path'];
+global $base_path;
+$panel_base_path = $base_path . $view->style_options['base_path'];
 ?>
 
 <div class="item-list">
@@ -15,7 +15,7 @@ $base_path = '/' . $view->style_options['base_path'];
     <li>
 
       <?php if ($row_classes[$id] == 'active'): ?>
-        <a href="<?php print $base_path; ?>" class="has-filter" title="Remove Filter">
+        <a href="<?php print $panel_base_path; ?>" class="has-filter" title="Remove Filter">
           <span class="label">Remove Filter</span>
           <span <?php print !empty($row_classes[$id]) ? ' class="'. $row_classes[$id] .'"' : ''; ?>><?php print $row->link; ?></span>
           <?php if (!empty($options['count'])): ?>
