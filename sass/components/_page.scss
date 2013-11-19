@@ -1,3 +1,7 @@
+#ui-wrapper .l-container {
+  width: 100%;
+}
+
 .l-header {
   background: #222;
   padding: 1em 0;
@@ -10,6 +14,14 @@
 
   .l-container {
     margin-bottom: 0;
+
+    @include breakpoint(0 $bp-responsive-nav) {
+      width: 100%;
+
+      #nav {
+        padding: 0 1em;
+      }
+    }
   }
 }
 
@@ -73,12 +85,6 @@
   margin: 0;
   @include font-size(2.2);
   font-weight: $font-weight-normal;
-}
-
-.front .pane-featured-slider-featured-slider-all {
-  .pane-title {
-    @include element-invisible;
-  }
 }
 
 aside .block {

@@ -67,3 +67,8 @@
     }
   }
 }
+
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 1;
+}
