@@ -1,0 +1,11 @@
+.view-display-id-people_table {
+
+  caption {
+    @include element-invisible;
+  }
+
+  .views-field-field-person-image {
+    line-height: 0;
+  }
+
+}
