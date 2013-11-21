@@ -55,7 +55,8 @@ $grids: add-grid(8 4 at $bp-desktop);
     .field--name-field-person-phone,
     .field--name-field-person-office,
     .field--name-field-person-website,
-    .field--name-field-person-type {
+    .field--name-field-person-type,
+    .field--name-field-person-cv {
       @include isolation-span(1, 1, 'left');
     }
 
@@ -75,7 +76,8 @@ $grids: add-grid(8 4 at $bp-desktop);
     .field--name-field-person-phone,
     .field--name-field-person-office,
     .field--name-field-person-website,
-    .field--name-field-person-type {
+    .field--name-field-person-type,
+    .field--name-field-person-cv {
       @include isolation-span(1, 1, 'left');
     }
 

@@ -1148,20 +1148,21 @@ aside .block {
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000379}}
   .node-type-people .node-full .field--name-field-person-position,
   .node-type-people .node-full .field--name-field-person-email,
   .node-type-people .node-full .field--name-field-person-department,
   .node-type-people .node-full .field--name-field-person-phone,
   .node-type-people .node-full .field--name-field-person-office,
   .node-type-people .node-full .field--name-field-person-website,
-  .node-type-people .node-full .field--name-field-person-type {
+  .node-type-people .node-full .field--name-field-person-type,
+  .node-type-people .node-full .field--name-field-person-cv {
     width: 64.86486%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
     clear: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/people_feature\/_panelized_person_node\.scss}line{font-family:\0000383}}
   .node-type-people .node-full .field--name-field-person-bio {
     width: 100%;
     float: right;
