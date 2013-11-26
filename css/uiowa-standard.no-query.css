@@ -108,48 +108,58 @@ img, media {
   margin-bottom: 1em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\000031}}
+table, th, tr, td {
+  border-color: #ddd; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\000035}}
 thead {
-  border-bottom: 1px solid #fee000;
+  border-bottom: 2px solid #aaa;
   margin-bottom: 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000310}}
 th {
   background: transparent;
   font-size: 16px;
-  font-size: 1.6rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000310}}
+  font-size: 1.6rem;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000315}}
   th .active {
     color: #477ec2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000319}}
   th img {
     position: relative;
     top: 3px;
     float: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000326}}
 th.active {
   background: url('../images/rgbapng/477ec21a-5.png?1385060854');
   background: rgba(71, 126, 194, 0.1); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000331}}
 tr.odd,
 tr.even {
   background: transparent; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000330}}
-tr.even {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000336}}
+tr.even,
+tr:nth-child(even) {
   background: #f1f1f1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000341}}
 th,
 td {
   padding: .3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000345}}
 td.active {
   background: url('../images/rgbapng/477ec21a-5.png?1385060854');
   background: rgba(71, 126, 194, 0.1);
   color: #333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000350}}
+.view td, .view th {
+  border: 1px dotted #eee; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_typography\.scss}line{font-family:\000031}}
 html {
