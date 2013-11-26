@@ -1,10 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_classes\.scss}line{font-family:\000034}}
-.view-display-id-articles_simple .item-list ul, .view-display-id-events_simple .item-list ul, .view-display-id-people_sidebar .item-list ul {
+.view-display-id-articles_simple .item-list ul, .view-display-id-events_simple .item-list ul, .view-display-id-people_simple .item-list ul {
   margin: 0;
   padding: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_classes\.scss}line{font-family:\000038}}
-  .view-display-id-articles_simple .item-list ul li, .view-display-id-events_simple .item-list ul li, .view-display-id-people_sidebar .item-list ul li {
+  .view-display-id-articles_simple .item-list ul li, .view-display-id-events_simple .item-list ul li, .view-display-id-people_simple .item-list ul li {
     list-style: none;
     margin-bottom: .5em;
     padding-bottom: .5em;
