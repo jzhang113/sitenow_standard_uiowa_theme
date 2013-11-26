@@ -85,6 +85,11 @@
   font-weight: normal;
   font-style: normal; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_forms\.scss}line{font-family:\000031}}
+.webform-component-fieldset {
+  padding: 1em;
+  margin: 1em 0; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_labels\.scss}line{font-family:\000032}}
 .field--label-above .field__label,
 .date_repeat_fm-next,
