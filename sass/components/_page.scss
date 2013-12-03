@@ -58,6 +58,98 @@
   }
 }
 
+.l-footer {
+  $grids: 1;
+  $grids: add-grid(6 6 at $bp-tablet);
+  $grids: add-grid(4 4 4 at $bp-desktop);
+
+  .sitenow-footer-info {
+    a {
+      text-decoration: underline;
+      @include transition(color, 300ms);
+
+      &:hover,
+      &:focus,
+      &:active {
+        color: #ccc;
+        text-decoration: none;
+      }
+    }
+  }
+
+  #ui-global-footer {
+    background: transparent;
+    border: none;
+    @include box-shadow(0 0 0 #fff);
+    padding: 0;
+    margin: 2em 0;
+
+    ul {
+    padding: 0;
+    }
+
+    li {
+      list-style-type: none;
+      margin: .5em 0;
+      padding: 0;
+    }
+
+    a {
+      color: #fff;
+    }
+
+    .l-container {
+      width: 100%;
+    }
+  }
+
+  @include breakpoint($bp-tablet) {
+
+    .sitenow-footer-info {
+      @include grid-span(1, 1);
+    }
+
+    #sitenow-footer-social-media {
+      @include grid-span(1, 2);
+      text-align: right;
+
+      li {
+        @include inline-block;
+        margin: 0 .5em;
+      }
+    }
+
+    #ui-global-footer,
+    .hawkid-login {
+      @include isolation-span(2, 1, 'both');
+    }
+  }
+
+  @include breakpoint($bp-desktop) {
+
+    .sitenow-footer-info {
+      @include grid-span(1, 2);
+    }
+
+    #sitenow-footer-social-media {
+      @include grid-span(1, 3);
+    }
+
+    #ui-global-footer {
+      @include grid-span(1, 1);
+      margin-top: 0;
+    }
+  }
+}
+
+// Footer login
+.hawkid-login {
+
+  &:before {
+    @include icon($fa-var-key, $margin-right: .3em);
+  }
+}
+
 .site-name {
   margin: 0;
 
