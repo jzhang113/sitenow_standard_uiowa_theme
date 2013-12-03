@@ -523,10 +523,10 @@ hr {
 @media (min-width: 1000px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_page\.scss}line{font-family:\00003130}}
   .l-footer .sitenow-footer-info {
-    width: 32%;
+    width: 40%;
     float: left;
     margin-right: -100%;
-    margin-left: 34%;
+    margin-left: 26%;
     clear: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_page\.scss}line{font-family:\00003134}}
   .l-footer #sitenow-footer-social-media {
@@ -537,7 +537,7 @@ hr {
     clear: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/components\/_page\.scss}line{font-family:\00003138}}
   .l-footer #ui-global-footer {
-    width: 32%;
+    width: 24%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;

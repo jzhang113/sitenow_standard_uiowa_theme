@@ -61,7 +61,7 @@
 .l-footer {
   $grids: 1;
   $grids: add-grid(6 6 at $bp-tablet);
-  $grids: add-grid(4 4 4 at $bp-desktop);
+  $grids: add-grid(3 5 4 at $bp-desktop);
 
   .sitenow-footer-info {
     a {
