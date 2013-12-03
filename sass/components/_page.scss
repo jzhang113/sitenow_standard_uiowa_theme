@@ -135,13 +135,17 @@
     }
 
     #ui-global-footer {
-      ul li {
-        @include inline-block;
-        margin-right: .5em;
+      ul {
+        margin: .3em 0 0;
 
-        &:after {
-          content: "/";
-          margin-left: .5em;
+        li {
+          @include inline-block;
+          margin-right: .5em;
+
+          &:after {
+            content: "/";
+            margin-left: .5em;
+          }
         }
       }
     }
