@@ -148,29 +148,35 @@ th {
 th.active {
   background: url('../images/rgbapng/477ec21a-5.png?1397138528');
   background: rgba(71, 126, 194, 0.1); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000329}}
+  th.active a {
+    color: #336098; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000335}}
 tr.odd,
 tr.even {
   background: transparent; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000340}}
 tr.even,
 tr:nth-child(even) {
   background: #f1f1f1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000345}}
 th,
 td {
   padding: .3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000349}}
 td.active {
   background: url('../images/rgbapng/477ec21a-5.png?1397138528');
   background: rgba(71, 126, 194, 0.1);
-  color: #333; }
+  color: #545454; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000353}}
+  td.active a {
+    color: #6a5323; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_tables\.scss}line{font-family:\0000358}}
 .view td, .view th {
   border: 1px dotted #eee; }
 
@@ -180,7 +186,7 @@ html {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_typography\.scss}line{font-family:\000035}}
 body {
-  color: #777777;
+  color: #686868;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   font-size: 1.8rem; }
@@ -195,7 +201,7 @@ h6 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 200;
   margin: 0 0 .5em;
-  color: #5e5e5e; }
+  color: #4e4e4e; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_typography\.scss}line{font-family:\0000323}}
 h2 {
@@ -220,7 +226,7 @@ a {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_typography\.scss}line{font-family:\0000343}}
   a:hover, a:focus, a:active {
     border-bottom: 1px dotted #81642b;
-    color: #444444; }
+    color: #353535; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_typography\.scss}line{font-family:\0000349}}
 hr {
@@ -651,7 +657,7 @@ aside .block {
     font-size: 12px;
     font-size: 1.2rem;
     font-weight: 600;
-    color: #777777;
+    color: #686868;
     border: 1px solid #ccc;
     padding: .1em .3em;
     text-align: center;
