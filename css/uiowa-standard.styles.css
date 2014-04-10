@@ -188,8 +188,7 @@ html {
 body {
   color: #686868;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 18px;
-  font-size: 1.8rem; }
+  font-size: 1.8em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/base\/_typography\.scss}line{font-family:\0000316}}
 h1,
