@@ -5,14 +5,14 @@
  * grids with Singularity.
  ******************************************************************************/
 @media (min-width: 500px) and (max-width: 749px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003114}}
   .has-no-sidebars .guardian-region--first .views-grid .views-row, .guardian-region--first .views-grid .has-no-sidebars .views-row {
     width: 49.15254%;
     clear: right;
     float: left;
     margin-left: 0;
     margin-right: 1.69492%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003118}}
     .has-no-sidebars .guardian-region--first .views-grid .views-row:nth-child(odd), .guardian-region--first .views-grid .has-no-sidebars .views-row:nth-child(odd) {
       width: 49.15254%;
       clear: right;
@@ -20,21 +20,21 @@
       margin-left: 0;
       margin-right: 1.69492%;
       clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003121}}
     .has-no-sidebars .guardian-region--first .views-grid .views-row:nth-child(even), .guardian-region--first .views-grid .has-no-sidebars .views-row:nth-child(even) {
       width: 49.15254%;
       clear: right;
       float: right;
       margin-right: 0; } }
 @media (min-width: 750px) and (max-width: 999px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003114}}
   .has-no-sidebars .guardian-region--first .views-grid .views-row, .guardian-region--first .views-grid .has-no-sidebars .views-row {
     width: 32.20339%;
     clear: right;
     float: left;
     margin-left: 0;
     margin-right: 1.69492%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003128}}
     .has-no-sidebars .guardian-region--first .views-grid .views-row:nth-child(3n+1), .guardian-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+1) {
       width: 32.20339%;
       clear: right;
@@ -42,21 +42,21 @@
       margin-left: 0;
       margin-right: 1.69492%;
       clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003131}}
     .has-no-sidebars .guardian-region--first .views-grid .views-row:nth-child(3n+3), .guardian-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+3) {
       width: 32.20339%;
       clear: right;
       float: right;
       margin-right: 0; } }
 @media (min-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003114}}
   .has-no-sidebars .guardian-region--first .views-grid .views-row, .guardian-region--first .views-grid .has-no-sidebars .views-row {
     width: 32.20339%;
     clear: right;
     float: left;
     margin-left: 0;
     margin-right: 1.69492%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003138}}
     .has-no-sidebars .guardian-region--first .views-grid .views-row:nth-child(3n+1), .guardian-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+1) {
       width: 32.20339%;
       clear: right;
@@ -64,28 +64,28 @@
       margin-left: 0;
       margin-right: 1.69492%;
       clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003141}}
     .has-no-sidebars .guardian-region--first .views-grid .views-row:nth-child(3n+3), .guardian-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+3) {
       width: 32.20339%;
       clear: right;
       float: right;
       margin-right: 0; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000320}}
 .panel-display--guardian {
   *zoom: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ajdelaney\/\.rvm\/gems\/ruby-1\.9\.3-p448\@omega\.uiowa_standard\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ace\/\.rvm\/gems\/ruby-1\.9\.3-p484\@omega\.uiowa_standard\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
   .panel-display--guardian:after {
     content: "";
     display: table;
     clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000324}}
 .guardian-region {
   margin-bottom: 40px; }
 
 @media (min-width: 750px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000332}}
   .has-no-sidebars .guardian-region--first,
   .has-one-sidebar .guardian-region--first {
     width: 64.86486%;
@@ -93,7 +93,7 @@
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000335}}
   .has-no-sidebars .guardian-region--second,
   .has-one-sidebar .guardian-region--second {
     width: 32.43243%;
@@ -102,14 +102,14 @@
     margin-left: 0%;
     clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000340}}
   .has-two-sidebars .guardian-region--first {
     width: 64.86486%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000343}}
   .has-two-sidebars .guardian-region--second {
     width: 32.43243%;
     float: left;
@@ -117,7 +117,7 @@
     margin-left: 0%;
     clear: none; } }
 @media (min-width: 1250px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000352}}
   .has-no-sidebars .guardian-region--first,
   .panels-dnd .guardian-region--first {
     width: 72.97297%;
@@ -125,7 +125,7 @@
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000355}}
   .has-no-sidebars .guardian-region--second,
   .panels-dnd .guardian-region--second {
     width: 24.32432%;
@@ -134,14 +134,14 @@
     margin-left: 0%;
     clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000361}}
   .has-one-sidebar .guardian-region--first {
     width: 32.05128%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000364}}
   .has-one-sidebar .guardian-region--second {
     width: 64.10256%;
     float: left;
@@ -149,7 +149,7 @@
     margin-left: 0%;
     clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/guardian\/guardian\.layout\.scss}line{font-family:\0000371}}
   .has-two-sidebars .guardian-region--first,
   .has-two-sidebars .guardian-region--second {
     width: 100%;
