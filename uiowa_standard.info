@@ -1,5 +1,5 @@
-name = uiowa_standard
-description = Please provide a description for your theme.
+name = Black & Gold
+description = A theme which shares design elements with the main University of Iowa website.
 base theme = omega
 screenshot = screenshot.png
 engine = phptemplate
