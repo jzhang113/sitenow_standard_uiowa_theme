@@ -145,3 +145,18 @@
   }
 }
 
+// Grid of 2
+%full-width-grid-2 {
+  .has-no-sidebars & {
+    // 2 col grid
+    @include breakpoint($bp-desktop) {
+      @include float-span(6);
+      &:nth-child(odd) {
+        @include float-span(6, 'first');
+      }
+      &:nth-child(even) {
+        @include float-span(6, 'last');
+      }
+    }
+  }
+}

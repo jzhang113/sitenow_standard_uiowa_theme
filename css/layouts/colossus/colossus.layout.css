@@ -5,155 +5,160 @@
  * grids with Singularity.
  ******************************************************************************/
 @media (min-width: 500px) and (max-width: 749px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003114}}
   .has-no-sidebars .colossus-region--first .views-grid .views-row, .colossus-region--first .views-grid .has-no-sidebars .views-row {
     width: 49.15254%;
     clear: right;
     float: left;
     margin-left: 0;
-    margin-right: 1.69492%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003118}}
-    .has-no-sidebars .colossus-region--first .views-grid .views-row:nth-child(odd), .colossus-region--first .views-grid .has-no-sidebars .views-row:nth-child(odd) {
-      width: 49.15254%;
-      clear: right;
-      float: left;
-      margin-left: 0;
-      margin-right: 1.69492%;
-      clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003121}}
-    .has-no-sidebars .colossus-region--first .views-grid .views-row:nth-child(even), .colossus-region--first .views-grid .has-no-sidebars .views-row:nth-child(even) {
-      width: 49.15254%;
-      clear: right;
-      float: right;
-      margin-right: 0; } }
+    margin-right: 1.69492%;
+  }
+  .has-no-sidebars .colossus-region--first .views-grid .views-row:nth-child(odd), .colossus-region--first .views-grid .has-no-sidebars .views-row:nth-child(odd) {
+    width: 49.15254%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+    clear: both;
+  }
+  .has-no-sidebars .colossus-region--first .views-grid .views-row:nth-child(even), .colossus-region--first .views-grid .has-no-sidebars .views-row:nth-child(even) {
+    width: 49.15254%;
+    clear: right;
+    float: right;
+    margin-right: 0;
+  }
+}
 @media (min-width: 750px) and (max-width: 999px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003114}}
   .has-no-sidebars .colossus-region--first .views-grid .views-row, .colossus-region--first .views-grid .has-no-sidebars .views-row {
     width: 32.20339%;
     clear: right;
     float: left;
     margin-left: 0;
-    margin-right: 1.69492%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003128}}
-    .has-no-sidebars .colossus-region--first .views-grid .views-row:nth-child(3n+1), .colossus-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+1) {
-      width: 32.20339%;
-      clear: right;
-      float: left;
-      margin-left: 0;
-      margin-right: 1.69492%;
-      clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003131}}
-    .has-no-sidebars .colossus-region--first .views-grid .views-row:nth-child(3n+3), .colossus-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+3) {
-      width: 32.20339%;
-      clear: right;
-      float: right;
-      margin-right: 0; } }
+    margin-right: 1.69492%;
+  }
+  .has-no-sidebars .colossus-region--first .views-grid .views-row:nth-child(3n+1), .colossus-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+1) {
+    width: 32.20339%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+    clear: both;
+  }
+  .has-no-sidebars .colossus-region--first .views-grid .views-row:nth-child(3n+3), .colossus-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+3) {
+    width: 32.20339%;
+    clear: right;
+    float: right;
+    margin-right: 0;
+  }
+}
 @media (min-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003114}}
   .has-no-sidebars .colossus-region--first .views-grid .views-row, .colossus-region--first .views-grid .has-no-sidebars .views-row {
     width: 32.20339%;
     clear: right;
     float: left;
     margin-left: 0;
-    margin-right: 1.69492%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003138}}
-    .has-no-sidebars .colossus-region--first .views-grid .views-row:nth-child(3n+1), .colossus-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+1) {
-      width: 32.20339%;
-      clear: right;
-      float: left;
-      margin-left: 0;
-      margin-right: 1.69492%;
-      clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/utilities\/_grids\.scss}line{font-family:\00003141}}
-    .has-no-sidebars .colossus-region--first .views-grid .views-row:nth-child(3n+3), .colossus-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+3) {
-      width: 32.20339%;
-      clear: right;
-      float: right;
-      margin-right: 0; } }
+    margin-right: 1.69492%;
+  }
+  .has-no-sidebars .colossus-region--first .views-grid .views-row:nth-child(3n+1), .colossus-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+1) {
+    width: 32.20339%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 1.69492%;
+    clear: both;
+  }
+  .has-no-sidebars .colossus-region--first .views-grid .views-row:nth-child(3n+3), .colossus-region--first .views-grid .has-no-sidebars .views-row:nth-child(3n+3) {
+    width: 32.20339%;
+    clear: right;
+    float: right;
+    margin-right: 0;
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000320}}
 .panel-display--colossus {
-  *zoom: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ace\/\.rvm\/gems\/ruby-1\.9\.3-p484\@omega\.uiowa_standard\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
-  .panel-display--colossus:after {
-    content: "";
-    display: table;
-    clear: both; }
+  *zoom: 1;
+}
+.panel-display--colossus:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000324}}
 .colossus-region {
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+}
 
 @media (min-width: 750px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000332}}
   .has-no-sidebars .colossus-region--first,
   .has-one-sidebar .colossus-region--first {
     width: 64.86486%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
-    clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000335}}
+    clear: none;
+  }
   .has-no-sidebars .colossus-region--second,
   .has-one-sidebar .colossus-region--second {
     width: 32.43243%;
     float: right;
     margin-left: 0;
     margin-right: 0;
-    clear: none; }
+    clear: none;
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000340}}
   .has-two-sidebars .colossus-region--first {
     width: 64.86486%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
-    clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000343}}
+    clear: none;
+  }
   .has-two-sidebars .colossus-region--second {
     width: 32.43243%;
     float: right;
     margin-left: 0;
     margin-right: 0;
-    clear: none; } }
+    clear: none;
+  }
+}
 @media (min-width: 1250px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000352}}
   .has-no-sidebars .colossus-region--first,
   .panels-dnd .colossus-region--first {
     width: 72.97297%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
-    clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000355}}
+    clear: none;
+  }
   .has-no-sidebars .colossus-region--second,
   .panels-dnd .colossus-region--second {
     width: 24.32432%;
     float: right;
     margin-left: 0;
     margin-right: 0;
-    clear: none; }
+    clear: none;
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000361}}
   .has-one-sidebar .colossus-region--first {
     width: 64.10256%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
-    clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000364}}
+    clear: none;
+  }
   .has-one-sidebar .colossus-region--second {
     width: 32.05128%;
     float: right;
     margin-left: 0;
     margin-right: 0;
-    clear: none; }
+    clear: none;
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/colossus\/colossus\.layout\.scss}line{font-family:\0000371}}
   .has-two-sidebars .colossus-region--first,
   .has-two-sidebars .colossus-region--second {
     width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
-    clear: none; } }
+    clear: none;
+  }
+}

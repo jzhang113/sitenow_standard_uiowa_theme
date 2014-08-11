@@ -1,16 +1,17 @@
 @media all and (max-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/uiowa-standard\.hacks\.scss}line{font-family:\000033}}
   #toolbar, #admin-menu {
-    display: none; }
+    display: none;
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/uiowa-standard\.hacks\.scss}line{font-family:\000038}}
   html body.toolbar, html body.admin-menu {
     padding-top: 0 !important;
-    margin-top: 0 !important; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/uiowa-standard\.hacks\.scss}line{font-family:\0000316}}
+    margin-top: 0 !important;
+  }
+}
 .omega-browser-width {
-  z-index: 999999; }
+  z-index: 999999;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard2\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/uiowa-standard\.hacks\.scss}line{font-family:\0000320}}
 .panels-choose-layout .current-layout {
-  background: #E6F9FF; }
+  background: #E6F9FF;
+}

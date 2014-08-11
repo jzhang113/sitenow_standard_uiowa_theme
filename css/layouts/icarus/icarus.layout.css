@@ -4,21 +4,20 @@
  * Styling of the "icarus" layout
  * grids with Singularity.
  ******************************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/icarus\/icarus\.layout\.scss}line{font-family:\0000319}}
 .panel-display--icarus {
-  *zoom: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ace\/\.rvm\/gems\/ruby-1\.9\.3-p484\@omega\.uiowa_standard\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
-  .panel-display--icarus:after {
-    content: "";
-    display: table;
-    clear: both; }
+  *zoom: 1;
+}
+.panel-display--icarus:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/icarus\/icarus\.layout\.scss}line{font-family:\0000323}}
 .icarus-region {
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+}
 
 @media (min-width: 750px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/icarus\/icarus\.layout\.scss}line{font-family:\0000332}}
   .has-no-sidebars .icarus-region--first,
   .has-one-sidebar .icarus-region--first,
   .panels-dnd .icarus-region--first {
@@ -26,8 +25,8 @@
     float: left;
     margin-right: -100%;
     margin-left: 0%;
-    clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/icarus\/icarus\.layout\.scss}line{font-family:\0000335}}
+    clear: none;
+  }
   .has-no-sidebars .icarus-region--second,
   .has-one-sidebar .icarus-region--second,
   .panels-dnd .icarus-region--second {
@@ -35,19 +34,21 @@
     float: right;
     margin-left: 0;
     margin-right: 0;
-    clear: none; }
+    clear: none;
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/icarus\/icarus\.layout\.scss}line{font-family:\0000340}}
   .has-two-sidebars .icarus-region--first {
     width: 48.64865%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
-    clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/sitenow\/standard\/sites\/all\/themes\/sitenow_standard_uiowa_theme\/sass\/layouts\/icarus\/icarus\.layout\.scss}line{font-family:\0000343}}
+    clear: none;
+  }
   .has-two-sidebars .icarus-region--second {
     width: 48.64865%;
     float: right;
     margin-left: 0;
     margin-right: 0;
-    clear: none; } }
+    clear: none;
+  }
+}
