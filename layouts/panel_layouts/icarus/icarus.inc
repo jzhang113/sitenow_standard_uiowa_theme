@@ -21,7 +21,7 @@ $plugin = array(
 /**
  * Implements hook_preprocess_golden().
  */
-function template_preprocess_icarus(&$variables) {
+function uiowa_standard_preprocess_icarus(&$variables) {
   $variables['attributes_array']['class'][] = 'panel-icarus';
   $variables['attributes_array']['class'][] = 'panel-display--icarus';
 
