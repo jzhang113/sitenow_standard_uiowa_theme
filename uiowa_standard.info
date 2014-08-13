@@ -1,6 +1,6 @@
 name = Black & Gold
 description = A theme which shares design elements with the main University of Iowa website.
-base theme = omega
+base theme = sitenow_standard_base
 screenshot = screenshot.png
 engine = phptemplate
 core = 7.x
@@ -18,7 +18,6 @@ regions[content] = Content
 regions[sidebar_first] = First Sidebar
 regions[sidebar_second] = Second Sidebar
 regions[footer] = Footer
-plugins[panels][layouts] = layouts/panel_layouts
 
 settings[toggle_logo] = 0
 settings[toggle_name] = 1
