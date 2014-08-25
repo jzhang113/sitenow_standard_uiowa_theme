@@ -146,7 +146,7 @@ th img {
 }
 
 th.active {
-  background: url('../images/rgbapng/477ec21a-5.png?1407782846');
+  background: url('../images/rgbapng/477ec21a-5.png?1386091737');
   background: rgba(71, 126, 194, 0.1);
 }
 th.active a {
@@ -169,7 +169,7 @@ td {
 }
 
 td.active {
-  background: url('../images/rgbapng/477ec21a-5.png?1407782846');
+  background: url('../images/rgbapng/477ec21a-5.png?1386091737');
   background: rgba(71, 126, 194, 0.1);
   color: #545454;
 }
@@ -392,14 +392,12 @@ hr {
 }
 
 .front .pane-featured-slider-featured-slider-all .pane-title {
-  border: 0;
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute !important;
-  width: 1px;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 
 html {
@@ -679,25 +677,21 @@ aside .block {
   color: #a14557;
 }
 .views-summary .has-filter .label {
-  border: 0;
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute !important;
-  width: 1px;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 
 .section-articles .pane-articles-articles-teaser .pane-title {
-  border: 0;
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute !important;
-  width: 1px;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 
 .view-display-id-articles_grid .view-content {
@@ -733,14 +727,12 @@ aside .block {
 }
 
 .page-events .pane-events-events-teaser .pane-title {
-  border: 0;
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute !important;
-  width: 1px;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 
 .node-type-event .pane-node-title {
@@ -1089,14 +1081,12 @@ aside .block {
 }
 
 .l-region--navigation .block--responsive-navigation-1 .block__title {
-  border: 0;
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute !important;
-  width: 1px;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 .l-region--navigation .block--responsive-navigation-1 #nav-toggle {
   display: block;
@@ -1257,14 +1247,12 @@ aside .block {
 }
 
 .page-people .pane-people-people-grid .pane-title {
-  border: 0;
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute !important;
-  width: 1px;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 
 .node-type-people .node-full .node__content {
@@ -1389,14 +1377,12 @@ aside .block {
 }
 
 .view-display-id-people_table caption {
-  border: 0;
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute !important;
-  width: 1px;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 .view-display-id-people_table .views-field-field-person-image {
   line-height: 0;
@@ -1406,7 +1392,7 @@ aside .block {
   .flexslider .flex-caption {
     position: absolute;
     bottom: 0;
-    background: url('../images/rgbapng/000000bf-5.png?1407782846');
+    background: url('../images/rgbapng/000000bf-5.png?1386091737');
     background: rgba(0, 0, 0, 0.75);
   }
   .flexslider .views-field-slideshow-link {
