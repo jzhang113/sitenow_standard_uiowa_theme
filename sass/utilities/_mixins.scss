@@ -34,15 +34,6 @@
   background-color: transparent; // Hide the default background color on elements like <button>
 }
 
-//
-// Removes an item from the page, without affecting page flow or causing scrollbars.
-// This is a good method for accessibilty.
-//
-@mixin offScreen() {
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
-}
 
 
 //
@@ -52,8 +43,9 @@
   clip: auto;
   height: auto;
   overflow: auto;
-
-  @include offScreen;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 
 

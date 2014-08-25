@@ -78,6 +78,15 @@
   color: #81642b;
 }
 
+.element-invisible {
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
 @font-face {
   font-family: 'FontAwesome';
   src: url("fonts/fontawesome/fontawesome-webfont.eot?v=4.0.0");
