@@ -155,7 +155,7 @@ th img {
 }
 
 th.active {
-  background: url('../images/rgbapng/477ec21a-5.png?1412778358');
+  background: url('../images/rgbapng/477ec21a-5.png?1419357247');
   background: rgba(71, 126, 194, 0.1);
 }
 th.active a {
@@ -178,7 +178,7 @@ td {
 }
 
 td.active {
-  background: url('../images/rgbapng/477ec21a-5.png?1412778358');
+  background: url('../images/rgbapng/477ec21a-5.png?1419357247');
   background: rgba(71, 126, 194, 0.1);
   color: #545454;
 }
@@ -1060,21 +1060,6 @@ aside .block {
   *display: inline;
   float: right;
   margin: 0 0 1em 1em;
-}
-.pane-localist-pane .lwd .lwi0 {
-  line-height: 0;
-}
-.pane-localist-pane .lwd .lwi0 a {
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
-  float: right;
-  margin: 0 0 1em 1em;
-}
-.pane-localist-pane .lwd .lwi0 a:hover, .pane-localist-pane .lwd .lwi0 a:focus, .pane-localist-pane .lwd .lwi0 a:active {
   border-color: transparent;
 }
 .pane-localist-pane .lwl .lwl0 {
@@ -1480,7 +1465,7 @@ aside .block {
   .flexslider .flex-caption {
     position: absolute;
     bottom: 0;
-    background: url('../images/rgbapng/000000bf-5.png?1412778358');
+    background: url('../images/rgbapng/000000bf-5.png?1419357247');
     background: rgba(0, 0, 0, 0.75);
   }
   .flexslider .views-field-slideshow-link {
