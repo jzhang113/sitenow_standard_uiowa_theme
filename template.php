@@ -7,13 +7,14 @@
  */
 
 function uiowa_standard_breadcrumb($vars) {
-
   $output = '';
 
   if (!empty($vars['breadcrumb'])) {
 
-    if ($vars['breadcrumb_current']) {
-      $vars['breadcrumb'][] = l(drupal_get_title(), current_path(), array('html' => TRUE));
+    if (!empty($vars['breadcrumb_current'])) {
+      if ($vars['breadcrumb_current']) {
+        $vars['breadcrumb'][] = l(drupal_get_title(), current_path(), array('html' => TRUE));
+      }
     }
 
     $output = '<div id="breadcrumb" class="clearfix"><ul class="breadcrumb">';
@@ -33,8 +34,8 @@ function uiowa_standard_breadcrumb($vars) {
         $output .= '<li' . drupal_attributes($attributes) . '>' . $item . '</li>' . '';
       }
       else
-        $output .= '<li' . drupal_attributes($attributes) . '>' . $item . '</li>' . $seperator;
-      }
+      $output .= '<li' . drupal_attributes($attributes) . '>' . $item . '</li>' . $seperator;
+    }
 
     $output .= '</ul></div>';
     return $output;
