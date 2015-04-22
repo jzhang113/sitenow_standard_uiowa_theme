@@ -421,6 +421,15 @@ body {
   width: 100%;
 }
 
+.l-container, .container {
+  padding: 0 1em;
+}
+@media (min-width: 1250px) {
+  .l-container, .container {
+    padding: 0;
+  }
+}
+
 .l-header {
   background: #222;
   padding: 1em 0;

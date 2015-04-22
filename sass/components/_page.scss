@@ -10,6 +10,14 @@ body {
   width: 100%;
 }
 
+.l-container, .container {
+  padding: 0 $horz-spacing-unit;
+
+  @include breakpoint($bp-desktop-large) {
+    padding: 0;
+  }
+}
+
 .l-header {
   background: #222;
   padding: 1em 0;

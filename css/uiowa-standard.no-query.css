@@ -421,6 +421,10 @@ body {
   width: 100%;
 }
 
+.l-container, .container {
+  padding: 0 1em;
+}
+
 .l-header {
   background: #222;
   padding: 1em 0;
