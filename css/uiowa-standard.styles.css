@@ -155,7 +155,7 @@ th img {
 }
 
 th.active {
-  background: url('../images/rgbapng/477ec21a-5.png?1419357247');
+  background: url('../images/rgbapng/477ec21a-5.png?1444917433');
   background: rgba(71, 126, 194, 0.1);
 }
 th.active a {
@@ -178,7 +178,7 @@ td {
 }
 
 td.active {
-  background: url('../images/rgbapng/477ec21a-5.png?1419357247');
+  background: url('../images/rgbapng/477ec21a-5.png?1444917433');
   background: rgba(71, 126, 194, 0.1);
   color: #545454;
 }
@@ -1474,7 +1474,7 @@ aside .block {
   .flexslider .flex-caption {
     position: absolute;
     bottom: 0;
-    background: url('../images/rgbapng/000000bf-5.png?1419357247');
+    background: url('../images/rgbapng/000000bf-5.png?1444917433');
     background: rgba(0, 0, 0, 0.75);
   }
   .flexslider .views-field-slideshow-link {
